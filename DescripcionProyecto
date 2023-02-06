@@ -1,0 +1,12 @@
+Este proyecto trata de crear una pokedex con sus pokemons, entrenadores y gimnasios conectandolo a una base de datos.
+En mi caso he creado 4 apartados.
+El primer apartado es la página principal(La portada).
+El segundo apartado es la página que nos muestra los pokemons registrados en la base de datos.
+El tercer apartado es la página que nos muestra los entrenadores registrados en la base de datos. 
+Por ultimo, el cuarto apartado nos muestra los gimnasios con sus entrenadores y pokemons.
+
+Para realizar estre proyecto he usado como base de datos MongoDB.
+
+El diseño lo he realizado con Bootstrap y un poco de css.
+
+La lógica del diseño esta realizada con Node.js.
