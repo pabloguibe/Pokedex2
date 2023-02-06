@@ -61,15 +61,16 @@
                                 formEditar.addEventListener('submit', async (e) => {
                                     e.preventDefault()
                                     const nombre = formEditar.elements['nombre'].value
-                                    const edad = formEditar.elements['edad'].value
-                                    const descripcion = formEditar.elements['descripcion'].value
+                                    const bio = formEditar.elements['bio'].value
+                                    const ciudad = formEditar.elements['ciudad'].value
+                                    const listapokemon = formEditar.elements['listapokemon'].value
                                     const id = formEditar.dataset.id
                                     const data = await fetch(`/entrenador/${id}`, {
                                         method: 'PUT',
                                         headers: {
                                             'Content-Type': 'application/json'
                                         },
-                                        body: JSON.stringify({ nombre, edad, descripcion })
+                                        body: JSON.stringify({ nombre, bio, ciudad, listapokemon })
                                     })
                                     const res = await data.json()
                                     if (res.estado) {

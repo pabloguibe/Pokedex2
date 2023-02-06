@@ -7,8 +7,5 @@ router.get('/', (req,res)=>{
     })
 })
 
-router.get('/servicios',(req, res)=>{
-    res.render("servicios",{tituloSer: "servowo"})
-})
 
 module.exports=router;
