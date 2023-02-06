@@ -7,5 +7,11 @@ router.get('/', (req,res)=>{
     })
 })
 
+router.get('/gimnasios', (req,res)=>{
+    res.render("gimnasios",{
+        titulo:"Gimnasios"
+    })
+})
+
 
 module.exports=router;
